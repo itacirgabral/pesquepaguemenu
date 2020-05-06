@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useReducer } from 'react'
+import { action, initialArg, reducer } from './rdx'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import ConfirmaPedido from './comps/confirmaPedido'
+import Cardapio from './comps/caradapio'
+import Pedido from './comps/pedido'
+
+const App = () => {
+  const [state, dispatch] = useReducer(reducer, initialArg)
+  return <>
+    <Pedido state={state} dispatch={dispatch} action={action}/>
+    <Cardapio state={state} dispatch={dispatch} action={action}/>
+    <ConfirmaPedido dispatch={dispatch} action={action}/>
+  </>
 }
 
 export default App;
