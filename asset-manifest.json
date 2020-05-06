@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pesquepaguemenu/static/css/main.14f37d8b.chunk.css",
+    "main.js": "/pesquepaguemenu/static/js/main.05445efd.chunk.js",
+    "main.js.map": "/pesquepaguemenu/static/js/main.05445efd.chunk.js.map",
+    "runtime-main.js": "/pesquepaguemenu/static/js/runtime-main.ec101389.js",
+    "runtime-main.js.map": "/pesquepaguemenu/static/js/runtime-main.ec101389.js.map",
+    "static/css/2.3499c1d1.chunk.css": "/pesquepaguemenu/static/css/2.3499c1d1.chunk.css",
+    "static/js/2.273f827a.chunk.js": "/pesquepaguemenu/static/js/2.273f827a.chunk.js",
+    "static/js/2.273f827a.chunk.js.map": "/pesquepaguemenu/static/js/2.273f827a.chunk.js.map",
+    "index.html": "/pesquepaguemenu/index.html",
+    "precache-manifest.2a26d09b0d58c705004be69a38e227d4.js": "/pesquepaguemenu/precache-manifest.2a26d09b0d58c705004be69a38e227d4.js",
+    "service-worker.js": "/pesquepaguemenu/service-worker.js",
+    "static/css/2.3499c1d1.chunk.css.map": "/pesquepaguemenu/static/css/2.3499c1d1.chunk.css.map",
+    "static/css/main.14f37d8b.chunk.css.map": "/pesquepaguemenu/static/css/main.14f37d8b.chunk.css.map",
+    "static/js/2.273f827a.chunk.js.LICENSE.txt": "/pesquepaguemenu/static/js/2.273f827a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/pesquepaguemenu/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec101389.js",
+    "static/css/2.3499c1d1.chunk.css",
+    "static/js/2.273f827a.chunk.js",
+    "static/css/main.14f37d8b.chunk.css",
+    "static/js/main.05445efd.chunk.js"
+  ]
+}
