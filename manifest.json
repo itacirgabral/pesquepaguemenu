@@ -1,4 +1,6 @@
 {
+  "version": "0.1.2",
+  "manifest_version": 2,
   "short_name": "Cardápio",
   "name": "Pesque Pague - Cardápio",
   "icons": [
