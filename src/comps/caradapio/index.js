@@ -22,7 +22,7 @@ const Cardapio = ({ state, dispatch, action }) => {
         {
           state.menu.itens.map(el => <CardapioItem
             key={`menulist-${el.codigo}`}
-            nome={el.nome}
+            descricao={el.descricao}
             quantidade={quantidade(el.codigo)}
             handleMaisUm={makeMaisUm(el.codigo)}
             handleMenosUm={makeMenosUm(el.codigo)}

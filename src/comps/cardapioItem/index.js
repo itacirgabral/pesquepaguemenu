@@ -5,12 +5,12 @@ import Button from '@material-ui/core/Button'
 import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline'
 import RemoveCircleOutlineIcon from '@material-ui/icons/RemoveCircleOutline'
 
-const MenuItem = ({ nome, quantidade, handleMaisUm, handleMenosUm }) => {
+const MenuItem = ({ descricao, quantidade, handleMaisUm, handleMenosUm }) => {
 
   return <ListItem >
   <Grid container >
     <Grid item xs={3}>
-      <p>{nome}</p>
+      <p>{descricao}</p>
     </Grid>
     <Grid item xs={3}>
       <Button onClick={handleMaisUm}><AddCircleOutlineIcon /></Button>
