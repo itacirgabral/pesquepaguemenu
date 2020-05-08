@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49f2435479654757d7e92c03dab5bc36",
+    "revision": "20529238bf6631b34e1b79d0a44324fd",
     "url": "/pesquepaguemenu/index.html"
   },
   {
-    "revision": "4a662fa6524eb6c87556",
+    "revision": "52c36a7a74bc95543a9f",
     "url": "/pesquepaguemenu/static/css/2.3499c1d1.chunk.css"
   },
   {
-    "revision": "6cea63c7e45cda10a371",
+    "revision": "bb462d89678fd1502cf4",
     "url": "/pesquepaguemenu/static/css/main.14f37d8b.chunk.css"
   },
   {
-    "revision": "4a662fa6524eb6c87556",
-    "url": "/pesquepaguemenu/static/js/2.273f827a.chunk.js"
+    "revision": "52c36a7a74bc95543a9f",
+    "url": "/pesquepaguemenu/static/js/2.1bb07f37.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/pesquepaguemenu/static/js/2.273f827a.chunk.js.LICENSE.txt"
+    "url": "/pesquepaguemenu/static/js/2.1bb07f37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6cea63c7e45cda10a371",
-    "url": "/pesquepaguemenu/static/js/main.e53c7099.chunk.js"
+    "revision": "bb462d89678fd1502cf4",
+    "url": "/pesquepaguemenu/static/js/main.e0d26c60.chunk.js"
   },
   {
     "revision": "92371acb0b0e5d42ee0e",
