@@ -2,7 +2,7 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import List from '@material-ui/core/List'
 
-import CardapioItem from '../cardapioItem'
+import CardapioItem from '../CardapioItem'
 
 const Cardapio = ({ state, dispatch, action }) => {
   const makeMaisUm = codigo => () => {
@@ -23,6 +23,7 @@ const Cardapio = ({ state, dispatch, action }) => {
           state.menu.itens.map(el => <CardapioItem
             key={`menulist-${el.codigo}`}
             descricao={el.descricao}
+            preco={el.preco}
             quantidade={quantidade(el.codigo)}
             handleMaisUm={makeMaisUm(el.codigo)}
             handleMenosUm={makeMenosUm(el.codigo)}

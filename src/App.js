@@ -1,9 +1,9 @@
 import React, { useReducer } from 'react'
 import { action, initialArg, reducer } from './rdx'
 
-import ConfirmaPedido from './comps/confirmaPedido'
-import Cardapio from './comps/caradapio'
-import Pedido from './comps/pedido'
+import ConfirmaPedido from './comps/ConfirmaPedido'
+import Cardapio from './comps/Cardapio'
+import Pedido from './comps/Pedido'
 
 const App = () => {
   const [state, dispatch] = useReducer(reducer, initialArg)

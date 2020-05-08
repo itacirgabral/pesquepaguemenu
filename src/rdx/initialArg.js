@@ -1,184 +1,182 @@
 const initialArg = {
-  drawer: {
-    numero: 0,
-    open: false,
-  },
-  signinForm: {
-    posto: 'garcom',
-    senha: '',
-  },
-  header: {
-    tabidx: 0,
-    indicatorColor: 'primary',
-  },
-  user: {
-    signin: true,
-    nome: 'cliente',
-  },
   menu: {
     itens: [
       {
-        codigo: 'Costelinha e Torresmo de peixe',
+        codigo: 'PT',
         preco: 40,
+        cozinha: true,
         descricao: 'Costelinha e Torresmo de peixe'
       },
       {
-        codigo: 'Tambatinga ao Molho',
+        codigo: 'TambM',
         preco: 52,
+        cozinha: true,
         descricao: 'Tambatinga ao Molho'
       },
       {
-        codigo: 'Lambari Empanado',
+        codigo: 'Lamb',
         preco: 30,
+        cozinha: true,
         descricao: 'Lambari Empanado'
       },
       {
-        codigo: 'Peixe Frinto',
+        codigo: 'PF',
         preco: 30,
+        cozinha: true,
         descricao: 'Peixe Frinto'
       },
       {
-        codigo: 'Pintado Empanado',
+        codigo: 'PintEmp',
         preco: 65,
+        cozinha: true,
         descricao: 'Pintado Empanado'
       },
       {
-        codigo: 'Frango a Passarinho',
+        codigo: 'Frango',
         preco: 25,
+        cozinha: true,
         descricao: 'Frango a Passarinho'
       },
       {
-        codigo: 'Moqueca de Peixe',
+        codigo: 'Mqca',
         preco: 105,
+        cozinha: true,
         descricao: 'Moqueca de Peixe'
       },
       {
-        codigo: 'Batata Simples',
+        codigo: 'BatS',
         preco: 20,
+        cozinha: true,
         descricao: 'Batata Simples'
       },
       {
-        codigo: 'Batata com Bacon',
+        codigo: 'BatB',
         preco: 25,
+        cozinha: true,
         descricao: 'Batata com Bacon'
       },
       {
-        codigo: 'Farofa',
+        codigo: 'Farf',
         preco: 10,
+        cozinha: true,
         descricao: 'Farofa'
       },
       {
-        codigo: 'Arroz',
+        codigo: 'Arz',
         preco: 6,
+        cozinha: true,
         descricao: 'Arroz'
       },
       {
-        codigo: 'Vinagrete',
+        codigo: 'Vingt',
         preco: 6,
+        cozinha: true,
         descricao: 'Vinagrete'
       },
       {
-        codigo: 'Pirão',
+        codigo: 'Prão',
         preco: 15,
+        cozinha: true,
         descricao: 'Pirão'
       },
       {
-        codigo: 'Bolinho de Peixe',
+        codigo: 'BolP',
         preco: 18,
-        descricao: 'Bolinho de Peixe'
+        cozinha: true,
+        descricao: 'Bolinho de Peixe com pimenta'
       },
       {
-        codigo: 'Molho Verde',
+        codigo: 'BolN',
+        preco: 18,
+        cozinha: true,
+        descricao: 'Bolinho de Peixe sem pimenta'
+      },
+      {
+        codigo: 'MolV',
         preco: 2,
+        cozinha: true,
         descricao: 'Molho Verde'
       },
       {
-        codigo: 'Copo com Gelo e Limão',
+        codigo: 'CopEsp',
         preco: 1,
+        cozinha: true,
         descricao: 'Copo com Gelo e Limão'
       },
       {
-        codigo: 'Itaipava',
+        codigo: 'Ita',
         preco: 3,
+        cozinha: false,
         descricao: 'Itaipava'
       },
       {
-        codigo: 'Skol',
+        codigo: 'Skl',
         preco: 4,
+        cozinha: false,
         descricao: 'Skol'
       },
       {
-        codigo: 'Petra',
+        codigo: 'Ptra',
         preco: 4,
+        cozinha: false,
         descricao: 'Petra'
       },
       {
-        codigo: 'Amstel',
+        codigo: 'Amt',
         preco: 4,
+        cozinha: false,
         descricao: 'Amstel'
       },
       {
-        codigo: 'Heineken',
+        codigo: 'HeinK',
         preco: 6,
+        cozinha: false,
         descricao: 'Heineken'
       },
       {
-        codigo: 'Sem Álcool',
+        codigo: 'CervSA',
         preco: 6,
+        cozinha: false,
         descricao: 'Sem Álcool'
       },
       {
         codigo: 'Vinho',
         preco: 7,
+        cozinha: false,
         descricao: 'Vinho'
       },
       {
         codigo: 'Suco',
         preco: 7,
+        cozinha: false,
         descricao: 'Suco'
       },
       {
-        codigo: 'Coca',
-        preco: 4,
-        descricao: 'Coca'
-      },
-      {
-        codigo: 'Fanta',
-        preco: 4,
-        descricao: 'Fanta'
-      },
-      {
-        codigo: 'Sprit',
-        preco: 4,
-        descricao: 'Sprit'
-      },
-      {
-        codigo: 'Guaraná',
-        preco: 4,
-        descricao: 'Guaraná'
-      },
-      {
-        codigo: 'Coca Litro',
+        codigo: 'RefGrf',
         preco: 8,
-        descricao: 'Coca Litro'
+        cozinha: false,
+        descricao: 'Refrigerante Garrafa 1,5 Litros'
       },
       {
-        codigo: 'Fanta Litro',
-        preco: 8,
-        descricao: 'Fanta Litro'
-      },
-      {
-        codigo: 'Água com Gás',
+        codigo: 'RefLt',
         preco: 4,
+        cozinha: false,
+        descricao: 'Refrigerante Lata'
+      },
+      {
+        codigo: 'AgCG',
+        preco: 4,
+        cozinha: false,
         descricao: 'Água com Gás'
       },
       {
-        codigo: 'Água sem Gás',
+        codigo: 'AgSG',
         preco: 3,
+        cozinha: false,
         descricao: 'Água sem Gás'
       }
     ],
-    versao: '01'
+    versao: '02'
   },
   pedido: {
     itens: [
