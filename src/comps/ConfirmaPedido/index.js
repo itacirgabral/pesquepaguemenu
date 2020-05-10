@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Fab from '@material-ui/core/Fab'
-import DoneAllIcon from '@material-ui/icons/DoneAll'
+import RestaurantIcon from '@material-ui/icons/Restaurant'
 import css from './css'
 
 const ConfirmaPedido = ({ dispatch, action }) => {
@@ -13,7 +13,7 @@ const ConfirmaPedido = ({ dispatch, action }) => {
     aria-label="confirm print"
     className={classes.fab}
   >
-    <DoneAllIcon />
+    <RestaurantIcon />
   </Fab>
 }
 

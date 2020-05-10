@@ -41,9 +41,9 @@ const Pedido = ({ state, dispatch, action}) => {
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell align='left'>Qtd</TableCell>
-                <TableCell align='center'>Cod</TableCell>
-                <TableCell align='right'>Total</TableCell>
+                <TableCell><Typography variant="h6" align="left">Qtd</Typography></TableCell>
+                <TableCell><Typography variant="h6" align="center">Cod</Typography></TableCell>
+                <TableCell><Typography variant="h6" align="right">Total</Typography></TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -63,8 +63,8 @@ const Pedido = ({ state, dispatch, action}) => {
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell align='left'>Qtd</TableCell>
-                <TableCell align='right'>Cod</TableCell>
+                <TableCell><Typography variant="h6" align="left">Qtd</Typography></TableCell>
+                <TableCell><Typography variant="h6" align="right">Cod</Typography></TableCell>
               </TableRow>
             </TableHead>
             <TableBody>

@@ -1,4 +1,20 @@
 const initialArg = {
+  drawer: {
+    numero: 0,
+    open: false,
+  },
+  signinForm: {
+    posto: 'garcom',
+    senha: '',
+  },
+  header: {
+    tabidx: 0,
+    indicatorColor: 'primary',
+  },
+  user: {
+    signin: true,
+    nome: 'cliente',
+  },
   menu: {
     itens: [
       {
@@ -42,6 +58,12 @@ const initialArg = {
         preco: 105,
         cozinha: true,
         descricao: 'Moqueca de Peixe'
+      },
+      {
+        codigo: 'QB',
+        preco: 25,
+        cozinha: true,
+        descricao: 'Quibe de Peixe'
       },
       {
         codigo: 'BatS',
