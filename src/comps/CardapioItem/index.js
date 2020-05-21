@@ -10,22 +10,38 @@ import useStyle from './css'
 const MenuItem = ({ descricao, preco, quantidade, handleMaisUm, handleMenosUm }) => {
   const classes = useStyle()
 
-  return <ListItem >
-  <Grid container >
+  return <ListItem className={classes.itemBorder}>
+  <Grid container align="center">
     <Grid item xs={4}>
-      <p className={classes.item}>{descricao}</p>
+      <Grid container className={classes.fullHeight} direction='column' justify='center'>
+        <Grid item xs={12}>
+          <p className={classes.textMargin}>{descricao}</p>
+        </Grid>
+        <Grid item xs={12}>
+          <p className={classes.textMargin}>R$ {preco}</p>
+        </Grid>
+      </Grid>
     </Grid>
     <Grid item xs={2}>
-      <p className={classes.item}>{preco}</p>
+    <Grid container className={classes.fullHeight} direction='column' justify='center'>
+      <Grid item xs={12}>
+        <Button onClick={handleMaisUm}><ExposurePlus1Icon /></Button>
+      </Grid>
+    </Grid>
+    </Grid>
+    <Grid item xs={4}>
+      <Grid container className={classes.fullHeight} direction='column' justify='center'>
+        <Grid item xs={12}>
+          <h1>{quantidade}</h1>
+        </Grid>
+      </Grid>
     </Grid>
     <Grid item xs={2}>
-      <Button onClick={handleMaisUm}><ExposurePlus1Icon /></Button>
-    </Grid>
-    <Grid item xs={2}>
-      <p className={classes.item}>{quantidade}</p>
-    </Grid>
-    <Grid item xs={2}>
-      <Button onClick={handleMenosUm}><ExposureNeg1Icon /></Button>
+      <Grid container className={classes.fullHeight} direction='column' justify='center'>
+        <Grid item xs={12}>
+          <Button onClick={handleMenosUm}><ExposureNeg1Icon /></Button>
+        </Grid>
+      </Grid>
     </Grid>
   </Grid>
 </ListItem>
